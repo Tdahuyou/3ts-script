@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "3ts",
+  "version": "1.0",
+  "description": "Speak selected text",
+  "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "imgs/icon_3ts_16.png",
+      "48": "imgs/icon_3ts_48.png",
+      "128": "imgs/icon_3ts_128.png"
+    }
+  },
+  "icons": {
+    "16": "imgs/icon_3ts_16.png",
+    "48": "imgs/icon_3ts_48.png",
+    "128": "imgs/icon_3ts_128.png"
+  }
+}
